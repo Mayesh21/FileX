@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sort_namea"
+            android:title="By Name (Ascending)"
+            >
+        </item>
+        <item
+            android:id="@+id/sort_named"
+            android:title="By Name (Descending)"
+            >
+        </item>
+        <item
+            android:id="@+id/sort_sizea"
+            android:title="By Size (Ascending)">
+        </item>
+        <item
+            android:id="@+id/sort_sized"
+            android:title="By Size (Descending)">
+        </item>
+        <item
+            android:id="@+id/sort_datea"
+            android:title="By Date (Ascending)"
+            android:icon="@drawable/ic_sdcard">
+        </item>
+        <item
+            android:id="@+id/sort_dated"
+            android:title="By Date (Descending)"
+            android:icon="@drawable/ic_sdcard">
+        </item>
+    </group>
+</menu>
